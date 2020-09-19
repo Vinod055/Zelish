@@ -11,6 +11,7 @@ import com.zelish.service.FoodTruckService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.xml.ws.Response;
 
 
 @RestController
@@ -29,11 +30,16 @@ public class FoodTruckController {
 		
 			}
 	
-	public FoodTruckModel addApplication(FoodTruckModel foodTruckModel) {
+	public Response addApplication(FoodTruckModel foodTruckModel) {
+		
+		Response response;
+		
+		if(foodTruckModel!=null) {
+			
+		}
 		
 		
-		
-		return foodTruckModel;
+		return Re;
 	}
 
 }
